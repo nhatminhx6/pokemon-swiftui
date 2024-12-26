@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF58F2342D1D0B28002816E2 /* MeraPokemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF58F2332D1D0B28002816E2 /* MeraPokemonApp.swift */; };
+		CF58F2362D1D0B28002816E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF58F2352D1D0B28002816E2 /* ContentView.swift */; };
+		CF58F2382D1D0B2A002816E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF58F2372D1D0B2A002816E2 /* Assets.xcassets */; };
+		CF58F23B2D1D0B2A002816E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF58F23A2D1D0B2A002816E2 /* Preview Assets.xcassets */; };
+		CF58F2452D1D0B2A002816E2 /* MeraPokemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF58F2442D1D0B2A002816E2 /* MeraPokemonTests.swift */; };
+		CF58F24F2D1D0B2A002816E2 /* MeraPokemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF58F24E2D1D0B2A002816E2 /* MeraPokemonUITests.swift */; };
+		CF58F2512D1D0B2A002816E2 /* MeraPokemonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF58F2502D1D0B2A002816E2 /* MeraPokemonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF58F2412D1D0B2A002816E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF58F2282D1D0B28002816E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF58F22F2D1D0B28002816E2;
+			remoteInfo = MeraPokemon;
+		};
+		CF58F24B2D1D0B2A002816E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF58F2282D1D0B28002816E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF58F22F2D1D0B28002816E2;
+			remoteInfo = MeraPokemon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF58F2302D1D0B28002816E2 /* MeraPokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeraPokemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF58F2332D1D0B28002816E2 /* MeraPokemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeraPokemonApp.swift; sourceTree = "<group>"; };
+		CF58F2352D1D0B28002816E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF58F2372D1D0B2A002816E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF58F23A2D1D0B2A002816E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF58F2402D1D0B2A002816E2 /* MeraPokemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeraPokemonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF58F2442D1D0B2A002816E2 /* MeraPokemonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeraPokemonTests.swift; sourceTree = "<group>"; };
+		CF58F24A2D1D0B2A002816E2 /* MeraPokemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeraPokemonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF58F24E2D1D0B2A002816E2 /* MeraPokemonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeraPokemonUITests.swift; sourceTree = "<group>"; };
+		CF58F2502D1D0B2A002816E2 /* MeraPokemonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeraPokemonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF58F22D2D1D0B28002816E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF58F23D2D1D0B2A002816E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF58F2472D1D0B2A002816E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF58F2272D1D0B28002816E2 = {
+			isa = PBXGroup;
+			children = (
+				CF58F2322D1D0B28002816E2 /* MeraPokemon */,
+				CF58F2432D1D0B2A002816E2 /* MeraPokemonTests */,
+				CF58F24D2D1D0B2A002816E2 /* MeraPokemonUITests */,
+				CF58F2312D1D0B28002816E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF58F2312D1D0B28002816E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF58F2302D1D0B28002816E2 /* MeraPokemon.app */,
+				CF58F2402D1D0B2A002816E2 /* MeraPokemonTests.xctest */,
+				CF58F24A2D1D0B2A002816E2 /* MeraPokemonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF58F2322D1D0B28002816E2 /* MeraPokemon */ = {
+			isa = PBXGroup;
+			children = (
+				CF58F2332D1D0B28002816E2 /* MeraPokemonApp.swift */,
+				CF58F2352D1D0B28002816E2 /* ContentView.swift */,
+				CF58F2372D1D0B2A002816E2 /* Assets.xcassets */,
+				CF58F2392D1D0B2A002816E2 /* Preview Content */,
+			);
+			path = MeraPokemon;
+			sourceTree = "<group>";
+		};
+		CF58F2392D1D0B2A002816E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF58F23A2D1D0B2A002816E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF58F2432D1D0B2A002816E2 /* MeraPokemonTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF58F2442D1D0B2A002816E2 /* MeraPokemonTests.swift */,
+			);
+			path = MeraPokemonTests;
+			sourceTree = "<group>";
+		};
+		CF58F24D2D1D0B2A002816E2 /* MeraPokemonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF58F24E2D1D0B2A002816E2 /* MeraPokemonUITests.swift */,
+				CF58F2502D1D0B2A002816E2 /* MeraPokemonUITestsLaunchTests.swift */,
+			);
+			path = MeraPokemonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF58F22F2D1D0B28002816E2 /* MeraPokemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF58F2542D1D0B2A002816E2 /* Build configuration list for PBXNativeTarget "MeraPokemon" */;
+			buildPhases = (
+				CF58F22C2D1D0B28002816E2 /* Sources */,
+				CF58F22D2D1D0B28002816E2 /* Frameworks */,
+				CF58F22E2D1D0B28002816E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeraPokemon;
+			productName = MeraPokemon;
+			productReference = CF58F2302D1D0B28002816E2 /* MeraPokemon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF58F23F2D1D0B2A002816E2 /* MeraPokemonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF58F2572D1D0B2A002816E2 /* Build configuration list for PBXNativeTarget "MeraPokemonTests" */;
+			buildPhases = (
+				CF58F23C2D1D0B2A002816E2 /* Sources */,
+				CF58F23D2D1D0B2A002816E2 /* Frameworks */,
+				CF58F23E2D1D0B2A002816E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF58F2422D1D0B2A002816E2 /* PBXTargetDependency */,
+			);
+			name = MeraPokemonTests;
+			productName = MeraPokemonTests;
+			productReference = CF58F2402D1D0B2A002816E2 /* MeraPokemonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF58F2492D1D0B2A002816E2 /* MeraPokemonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF58F25A2D1D0B2A002816E2 /* Build configuration list for PBXNativeTarget "MeraPokemonUITests" */;
+			buildPhases = (
+				CF58F2462D1D0B2A002816E2 /* Sources */,
+				CF58F2472D1D0B2A002816E2 /* Frameworks */,
+				CF58F2482D1D0B2A002816E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF58F24C2D1D0B2A002816E2 /* PBXTargetDependency */,
+			);
+			name = MeraPokemonUITests;
+			productName = MeraPokemonUITests;
+			productReference = CF58F24A2D1D0B2A002816E2 /* MeraPokemonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF58F2282D1D0B28002816E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CF58F22F2D1D0B28002816E2 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					CF58F23F2D1D0B2A002816E2 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CF58F22F2D1D0B28002816E2;
+					};
+					CF58F2492D1D0B2A002816E2 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CF58F22F2D1D0B28002816E2;
+					};
+				};
+			};
+			buildConfigurationList = CF58F22B2D1D0B28002816E2 /* Build configuration list for PBXProject "MeraPokemon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF58F2272D1D0B28002816E2;
+			productRefGroup = CF58F2312D1D0B28002816E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF58F22F2D1D0B28002816E2 /* MeraPokemon */,
+				CF58F23F2D1D0B2A002816E2 /* MeraPokemonTests */,
+				CF58F2492D1D0B2A002816E2 /* MeraPokemonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF58F22E2D1D0B28002816E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF58F23B2D1D0B2A002816E2 /* Preview Assets.xcassets in Resources */,
+				CF58F2382D1D0B2A002816E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF58F23E2D1D0B2A002816E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF58F2482D1D0B2A002816E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF58F22C2D1D0B28002816E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF58F2362D1D0B28002816E2 /* ContentView.swift in Sources */,
+				CF58F2342D1D0B28002816E2 /* MeraPokemonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF58F23C2D1D0B2A002816E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF58F2452D1D0B2A002816E2 /* MeraPokemonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF58F2462D1D0B2A002816E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF58F24F2D1D0B2A002816E2 /* MeraPokemonUITests.swift in Sources */,
+				CF58F2512D1D0B2A002816E2 /* MeraPokemonUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF58F2422D1D0B2A002816E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF58F22F2D1D0B28002816E2 /* MeraPokemon */;
+			targetProxy = CF58F2412D1D0B2A002816E2 /* PBXContainerItemProxy */;
+		};
+		CF58F24C2D1D0B2A002816E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF58F22F2D1D0B28002816E2 /* MeraPokemon */;
+			targetProxy = CF58F24B2D1D0B2A002816E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CF58F2522D1D0B2A002816E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF58F2532D1D0B2A002816E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF58F2552D1D0B2A002816E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeraPokemon/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mera.MeraPokemon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF58F2562D1D0B2A002816E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeraPokemon/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mera.MeraPokemon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF58F2582D1D0B2A002816E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mera.MeraPokemonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeraPokemon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeraPokemon";
+			};
+			name = Debug;
+		};
+		CF58F2592D1D0B2A002816E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mera.MeraPokemonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeraPokemon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeraPokemon";
+			};
+			name = Release;
+		};
+		CF58F25B2D1D0B2A002816E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mera.MeraPokemonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeraPokemon;
+			};
+			name = Debug;
+		};
+		CF58F25C2D1D0B2A002816E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mera.MeraPokemonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeraPokemon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF58F22B2D1D0B28002816E2 /* Build configuration list for PBXProject "MeraPokemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF58F2522D1D0B2A002816E2 /* Debug */,
+				CF58F2532D1D0B2A002816E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF58F2542D1D0B2A002816E2 /* Build configuration list for PBXNativeTarget "MeraPokemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF58F2552D1D0B2A002816E2 /* Debug */,
+				CF58F2562D1D0B2A002816E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF58F2572D1D0B2A002816E2 /* Build configuration list for PBXNativeTarget "MeraPokemonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF58F2582D1D0B2A002816E2 /* Debug */,
+				CF58F2592D1D0B2A002816E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF58F25A2D1D0B2A002816E2 /* Build configuration list for PBXNativeTarget "MeraPokemonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF58F25B2D1D0B2A002816E2 /* Debug */,
+				CF58F25C2D1D0B2A002816E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF58F2282D1D0B28002816E2 /* Project object */;
+}
